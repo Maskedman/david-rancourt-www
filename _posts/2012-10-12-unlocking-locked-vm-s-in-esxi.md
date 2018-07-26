@@ -4,7 +4,7 @@ title: Unlocking Locked VM's in ESXi
 category: virtualization, vmware, esxi, virtual machine
 ---
 
-So one of your virtual machines either won't lock or got locked in ESXi and you need to fix it quickly? Well VMware's KB can be pretty useful when it's direct and to the point. However I found it difficult to figure out after a bit of digging around in my ESXi system. So I thought I would clarify this for everyone here. Often times you'll probably see one of these errors:
+So one of your virtual machines either won't lock or got locked in ESXi and you need to fix it quickly? Well [VMware's KB][] can be pretty useful when it's direct and to the point. However I found it difficult to figure out after a bit of digging around in my ESXi system. So I thought I would clarify this for everyone here. Often times you'll probably see one of these errors:
 
 *   A virtual machine cannot power on.
 *   Powering on a virtual machine fails.
@@ -72,3 +72,5 @@ touch *
 {% endhighlight %}
 
 You should now be able to start up your VM without any issues.
+
+[VMWare's KB]: http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=10051
