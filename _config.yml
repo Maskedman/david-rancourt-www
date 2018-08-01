@@ -26,12 +26,14 @@ linkedin_username: davidrancourt
 instagram_username: 4_lo_and_slo
 youtube_username: channel/UCMzkKxeu9PdXIqBwQa9tVyQ?
 
+animated: true
+
 jekyll_compose:
    auto_open: true
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: pixyll
 plugins:
   - jekyll-feed
 
