@@ -4,7 +4,7 @@ email:       drancourt@david-rancourt.com
 author:      David Rancourt Jr.
 description: "A simple, simple personal blog covering a wide range of topics."
 baseurl:     ""
-url:         "https://test.david-rancourt.com"
+url:         "https://david-rancourt.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
