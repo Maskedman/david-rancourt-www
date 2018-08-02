@@ -1,50 +1,135 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: David Rancourt Jr.
-email: drancourt@david-rancourt.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Systems Engineer, Astrophotographer, Overlander, Hockey, and sticking it to the man.
-  Linux, Windows, Mac OSX, Virtualization, Cloud Computing
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "david-rancourt.com" # the base hostname & protocol for your site, e.g. http://example.com
+title:       David Rancourt Jr.
+email:       drancourt@david-rancourt.com
+author:      David Rancourt Jr.
+description: "A simple, simple personal blog covering a wide range of topics."
+baseurl:     ""
+url:         "https://test.david-rancourt.com"
+date_format: "%b %-d, %Y"
+header_pages:
+ - about.md
+ - resume.md
+ - contact.html
+
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Optional features
+animated:             true
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    true
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: true
+enable_anchorjs: false
+# Preview image for social media aka og:image and twitter:image
+post_preview_image: false
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id:
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# txtpen post comments
+# (leave blank to disable txtpen)
+txtpen_sitename:
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
+github_username: maskedman
+reddit_username:
+bitbucket_username:
+stackoverflow_id:
 twitter_username: dave4035
-github_username:  maskedman
+skype_username:
+steam_nickname:
+google_plus_id:
 linkedin_username: davidrancourt
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+telegram_username:
+vk_id:
 instagram_username: 4_lo_and_slo
-youtube_username: channel/UCMzkKxeu9PdXIqBwQa9tVyQ?
+youtube_channel: UCMzkKxeu9PdXIqBwQa9tVyQ?
 
-animated: true
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
 
-jekyll_compose:
-   auto_open: true
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting me 👍. I will reply as soon as possible.'
+  og_locale: 'en_US'
 
 # Build settings
-markdown: kramdown
-#theme: pixyll
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  style: compressed
 plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-paginate
+  - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
