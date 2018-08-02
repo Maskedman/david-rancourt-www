@@ -1,12 +1,8 @@
 ---
 layout: post
 title: P2V Conversion Failure Fixed
-<<<<<<< HEAD
 date: 2012-09-28
 categories: p2v, vmware, windows 2000, windows server p2v
-=======
-category: p2v, vmware, windows 2000, windows server p2v
->>>>>>> 4c1b7bd541401a319577a89172f1873993daba5b
 ---
 
 We’ve been trying to convert a few Windows 2000 SP4 server to a VMWare machine for a while and running into the same issue.  I would always get a MODEEXCEPTIONNOT_HANDLED BSOD right after the login screen would appear.  I tried the normal fixes listed on the VMWare website including the right SP4 rollup 1 v2 and checking the versions of scsiport.sys.  Fortunately, I stumbled across this wonderful article: <http://www.networkworld.com/news/2005/041105-windows-crash.html?page=1>.
