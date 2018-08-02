@@ -37,6 +37,12 @@ Providing systems engineering, prototyping, development, and planning for the NW
 ### IT Specialist, INNOVIM
 ***contractor at NOAA - National Weather Service - [Performance Management Division][]***  
 ***Silver Spring, MD --- November 2012 - January 2014***  
+I handled all of the System Engineering duties on the IT side of projects for all of National Weather Service's early-warning forecast verification system, which provides verification and performance metrics to scientists, meteorologists, military, educational researchers, and members of congress across the nation insight and tracking tools for the performance metircs of lead-time of warning notifications vs the actual time-frame of all related weather event observations.
+
+*   Lead infrastructure upgrades, to modernize the system to a virtualized datacenter and speed it up as it is critical to ensure verification workflow is delivered on time.
+*   Integrated bespoke software developed in-house along with various open-source software for weather forcast verification methods.
+*   Performed routine maintenance work, security audits, fine-tuning, and optimization of the servers to ensure that the project runs smoothly and efficiently with miniamal downtime.
+
 
 <hr>
 
