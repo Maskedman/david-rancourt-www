@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pixyll
 
 [pixyll.com](http://www.pixyll.com)
@@ -219,3 +220,10 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+=======
+# david-rancourt-www
+
+[![Build Status](https://travis-ci.org/Maskedman/david-rancourt-www.svg?branch=master)](https://travis-ci.org/Maskedman/david-rancourt-www)
+
+nothing much to see here unless you want to setup a Jekyll site that uses Travis-CI to deploy to Firebase hosting.
+>>>>>>> 4c1b7bd541401a319577a89172f1873993daba5b

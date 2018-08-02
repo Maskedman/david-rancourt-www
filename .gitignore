@@ -1,5 +1,6 @@
 _site
 .sass-cache
+<<<<<<< HEAD
 .DS_Store
 .jekyll-metadata
 
@@ -7,3 +8,6 @@ _site
 _config.gh-pages.yml
 
 Gemfile.lock
+=======
+.jekyll-metadata
+>>>>>>> 4c1b7bd541401a319577a89172f1873993daba5b

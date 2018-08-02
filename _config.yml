@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title:       David Rancourt Jr.
 email:       drancourt@david-rancourt.com
@@ -133,3 +134,53 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+=======
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: David Rancourt Jr.
+email: drancourt@david-rancourt.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Systems Engineer, Astrophotographer, Overlander, Hockey, and sticking it to the man.
+  Linux, Windows, Mac OSX, Virtualization, Cloud Computing
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "david-rancourt.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: dave4035
+github_username:  maskedman
+linkedin_username: davidrancourt
+instagram_username: 4_lo_and_slo
+youtube_username: channel/UCMzkKxeu9PdXIqBwQa9tVyQ?
+
+jekyll_compose:
+   auto_open: true
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+>>>>>>> 4c1b7bd541401a319577a89172f1873993daba5b
