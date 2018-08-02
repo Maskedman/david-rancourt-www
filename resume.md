@@ -9,7 +9,6 @@ I am a systems engineer providing a strong background focused on providing value
 
 ## Experience
 
-<hr>
 
 ### Sr. Unix Systems Administrator, INNOVIM
 ***contractor at NASA Goddard Space Flight Center***  
@@ -92,6 +91,7 @@ Technical troubleshooting within an enterprise environment, including system cra
 <hr>
 
 ## Education
+
 ***University of Maryland, University College*** BS, Management Information Systems - 2019  
 ***Rochester Institute of Technology*** AAS, Applied Computing Technologies - 2011  
 
